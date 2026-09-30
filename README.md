@@ -88,10 +88,3 @@ Open `chrome://extensions`, find the extension and click **Inspect views** (serv
 
 `faceapi.nets.*.loadFromUri()` mangles `chrome-extension://` URLs (it collapses `//` into `/`), so the model is loaded manually with `tf.io.loadWeights` in `offscreen.js`. If you swap in another face-api model, load it the same way.
 
-## Responsible use
-
-Meant for fun, privacy and design experiments. Don't use it to deceive people or to misrepresent who appears in an image.
-
-## Credits and license
-
-Released under the [MIT License](LICENSE). Third-party components are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
